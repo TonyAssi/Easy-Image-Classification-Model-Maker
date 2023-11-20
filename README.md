@@ -7,11 +7,13 @@ pip install -r requirements.txt
 ```
 
 ## Train Model
-Import the model
+Import the module
 ```python
 import modelmaker
 ```
-
+Define the model and dataset.
+- keywords: this list of strings will be the labels of the model
+- num_images: number of images in the training dataset
 ```python
 model = modelmaker.ModelMaker(keywords,
                               num_images,
