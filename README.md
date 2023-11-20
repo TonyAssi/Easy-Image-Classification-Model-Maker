@@ -1,5 +1,5 @@
 # Easy Image Classification Model Maker
-Create a custom image classification model with a few lines of code.
+Create a custom image classification model with a few lines of code. This module scrapes images, formats and uploads the image dataset to HuggingFace, and trains a HuggingFace model.
 
 ## Installation
 ```bash
