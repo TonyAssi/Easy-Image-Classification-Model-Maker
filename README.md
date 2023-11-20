@@ -42,6 +42,7 @@ model.train_model()
 ## Model Usage
 ### Inference API Widget
 Go to the model page, which can be found on your HuggingFace page. Drag and drag images onto the Inference API section to test it.
+![](https://cdn.discordapp.com/attachments/1120417968032063538/1176305346671804426/hf_art_classifier_example.png?ex=656e62b9&is=655bedb9&hm=afa10c53e851d9400f600ceb27ef3fb871d3eb39d3966c4c7df44a25550bc860&)
 
 ### Python
 ```python
