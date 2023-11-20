@@ -16,7 +16,7 @@ Define the model and dataset parameters:
 - **num_images** number of images in the training dataset
 - **key** HuggingFace write access token can be created [here](https://huggingface.co/settings/tokens).
 - **dataset_name** name of dataset that will uploaded to HuggingFace
-- **model_name** name of model that will be uploaded to Huggingface
+- **model_name** name of model that will be uploaded to HuggingFace
 - **train_epochs** number of training epochs the model will go through
 ```python
 model = modelmaker.ModelMaker(keywords = ['cubism', 'impressionism', 'abstract expressionism'],
