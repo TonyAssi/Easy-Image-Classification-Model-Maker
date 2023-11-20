@@ -38,3 +38,9 @@ Train the model and upload it to HuggingFace
 ```python
 model.train_model()
 ```
+
+## Model Usage
+Go to the model page, which can be found on your HuggingFace page. Drag and drag images onto the Inference API section to test it.
+
+
+
