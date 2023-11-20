@@ -12,8 +12,9 @@ Import the module
 import modelmaker
 ```
 Define the model and dataset parameters
-- **keyword** this list of strings will be the labels of the model
+- **keyword** list of strings will be the labels of the model
 - **num_images** number of images in the training dataset
+- **key** HuggingFace write access token can be created [here](https://huggingface.co/settings/tokens).
 ```python
 model = modelmaker.ModelMaker(keywords,
                               num_images,
