@@ -34,7 +34,7 @@ Upload dataset to HuggingFace
 ```python
 model.upload_dataset()
 ```
-Train the model and upload it to Huggingface
+Train the model and upload it to HuggingFace
 ```python
 model.train_model()
 ```
