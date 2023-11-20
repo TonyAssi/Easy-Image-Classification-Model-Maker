@@ -48,7 +48,7 @@ Go to the model page, which can be found on your HuggingFace page. Drag and drag
 ```python
 from transformers import pipeline
 
-pipe = pipeline("image-classification", model="tonyassi/fashion-clothing-decade")
+pipe = pipeline("image-classification", model="tonyassi/art_classifier")
 result = pipe('image.png')
 
 print(result)
@@ -59,7 +59,7 @@ print(result)
 async function query(filename) {
 	const data = fs.readFileSync(filename);
 	const response = await fetch(
-		"https://api-inference.huggingface.co/models/tonyassi/fashion-clothing-decade",
+		"https://api-inference.huggingface.co/models/tonyassi/art_classifier",
 		{
 			headers: { Authorization: "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" },
 			method: "POST",
