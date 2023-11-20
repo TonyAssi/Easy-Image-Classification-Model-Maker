@@ -40,7 +40,15 @@ model.train_model()
 ```
 
 ## Model Usage
+### Inference API Widget
 Go to the model page, which can be found on your HuggingFace page. Drag and drag images onto the Inference API section to test it.
 
+### Python
+```python
+from transformers import pipeline
 
+pipe = pipeline("image-classification", model="tonyassi/fashion-clothing-decade")
+result = pipe('image.png')
 
+print(result)
+```
