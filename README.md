@@ -11,9 +11,9 @@ Import the module
 ```python
 import modelmaker
 ```
-Define the model and dataset.
-- keywords: this list of strings will be the labels of the model
-- num_images: number of images in the training dataset
+Define the model and dataset parameters
+- **keyword** this list of strings will be the labels of the model
+- **num_images** number of images in the training dataset
 ```python
 model = modelmaker.ModelMaker(keywords,
                               num_images,
