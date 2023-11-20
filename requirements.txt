@@ -1,0 +1,11 @@
+icrawler
+six
+pillow
+requests
+bs4
+lxml
+datasets
+transformers[torch]
+evaluate
+torchvision
+scikit-learn
