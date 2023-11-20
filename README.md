@@ -21,7 +21,7 @@ Define the model and dataset parameters:
 ```python
 model = modelmaker.ModelMaker(keywords = ['cubism', 'impressionism', 'abstract expressionism'],
                               num_images = 100,
-                              key = YOUR_TOKEN,
+                              key = 'YOUR_TOKEN',
                               dataset_name = 'art_dataset',
                               model_name = 'art_classifier',
                               train_epochs = 10)
