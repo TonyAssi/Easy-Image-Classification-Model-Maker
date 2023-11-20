@@ -26,3 +26,15 @@ model = modelmaker.ModelMaker(keywords = ['cubism', 'impressionism', 'abstract e
                               model_name = 'art_classifier',
                               train_epochs = 10)
 ```
+Download images from Bing into the './images' folder. It is suggested to manually go through the image folders to make sure there isn't any incorrect images in their respective folders. 
+```python
+model.download_images()
+```
+Upload dataset to HuggingFace
+```python
+model.upload_dataset()
+```
+Train the model and upload it to Huggingface
+```python
+model.train_model()
+```
